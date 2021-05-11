@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    height: 60px;
+}
+
+.photo_container{
+    display: flex;
+    padding: 5px;
+    width: 70px;
+    height: 60px;
+    
+}
+
+.central_nav{
+    display: flex;
+    width: 800px;
+}
+
+.nav_container{
+    display: flex;
+    justify-content: right;
+    height: 60px;
+    width: 300px;
+}
+
+
+a {
+    text-decoration: none;
+    padding: 15px;
+}
+

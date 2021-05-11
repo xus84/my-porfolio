@@ -1,8 +1,13 @@
-import './App.css';
+import  { Route, BrowserRouter } from 'react-router-dom'
+import HomeScreen from './HomeScreen'
 
 function App() {
   return (
-    <h1>My Portfolio</h1>
+    <BrowserRouter>
+     <div className="container">
+     <Route path="/" component={HomeScreen} exact></Route>
+     </div>
+    </BrowserRouter>
   );
 }
 
