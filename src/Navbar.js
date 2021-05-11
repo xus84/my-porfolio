@@ -1,6 +1,7 @@
 import React from "react";
 import "./navbar.css";
 import picture from './images/pic.png';
+import { Link } from "react-router-dom";
  
 
 export default function Navbar() {
@@ -17,10 +18,10 @@ export default function Navbar() {
             </div>
         </div>
         <div className="nav_container">
-          <a href="/">Projects</a>
-          <a href="/">Github</a>
-          <a href="/">CV</a>
-          <a href="/">Skills</a>
+          <Link to="/Projects">Projects</Link>
+          <a href="https://github.com/xus84">Github</a>
+          <Link to="/">CV</Link>
+          <Link to="/">Skills</Link>
         </div>
       </header>
    

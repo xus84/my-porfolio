@@ -1,11 +1,15 @@
-import  { Route, BrowserRouter } from 'react-router-dom'
+import  { Route, BrowserRouter, Switch } from 'react-router-dom'
 import HomeScreen from './HomeScreen'
+import Projects from './Projects'
 
 function App() {
   return (
     <BrowserRouter>
      <div className="container">
-     <Route path="/" component={HomeScreen} exact></Route>
+       <Switch>
+      <Route path="/Projects" component={Projects} exact></Route>
+      <Route path="/" component={HomeScreen} exact></Route>
+      </Switch>
      </div>
     </BrowserRouter>
   );
