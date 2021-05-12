@@ -20,6 +20,7 @@ export default function Navbar() {
         <div className="nav_container">
           <Link to="/Projects">Projects</Link>
           <a href="https://github.com/xus84">Github</a>
+          <a href="https://www.linkedin.com/in/jesus-garcia-sanchis-72b884136/">LinkedIn</a>
           <Link to="/">CV</Link>
           <Link to="/">Skills</Link>
         </div>

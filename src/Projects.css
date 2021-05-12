@@ -1,3 +1,41 @@
 .projects_arrow{
-    font-size: 1.75rem;
+    float: left;
+    width: 150px;
+    font-size: 2.5rem;
 }
+
+.projects_description{
+    padding-top: 20px;
+    display: flex;
+    text-align: center;
+    font-weight: 400;
+}
+
+i {
+    font-size: 2rem;
+}
+
+.container_projects{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 600px 600px;
+    column-gap: 10px;
+    justify-items: center;
+}
+
+.project_store{
+    text-align: center;
+
+}
+
+.card_project {
+    background: white;
+    border-radius: 15px;
+}
+
+.project_link{
+    padding-top: 5px;
+}
+
+
+

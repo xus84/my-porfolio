@@ -11,6 +11,11 @@ header {
     
 }
 
+.nav_dates{
+   margin-top: 10px; 
+   margin-left: 10px;
+}
+
 .central_nav{
     display: flex;
     width: 800px;
@@ -27,5 +32,9 @@ header {
 a {
     text-decoration: none;
     padding: 15px;
+}
+
+a:hover {
+    color: cornflowerblue;
 }
 

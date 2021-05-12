@@ -3,14 +3,45 @@ import { Link } from 'react-router-dom'
 import Navbar from './Navbar'
 import './Projects.css'
 import Ecommerce from './images/3d-online-shopping.jpg'
+import AmazonClone from './images/amazon_react_store.png'
+import AmazonClone2 from './images/product1_amazon_react.png'
 
 export default function Projects() {
     return (
         <div>
             <Navbar></Navbar>
+            <hr></hr>
             <div className="projects_container">
-                <Link to="/"><div className="projects_arrow"><i class="fas fa-long-arrow-alt-left"></i></div></Link>
-                <img src={Ecommerce} width="100%"/>
+                
+                <div className="projects_description">
+                    <div><Link to="/">
+                        <span className="projects_arrow"><i class="fas fa-long-arrow-alt-left"></i>
+                        </span>
+                        </Link>I focus on building projects related with <strong>E-Commerce</strong>, using  <i class="fab fa-js-square"></i> Javascript and framework as  <i class="fab fa-angular"></i>  Angular and <i class="fab fa-react"></i> React.
+                    </div>
+                </div>
+                
+                <br></br>
+                {/* <img src={Ecommerce} width="100%" z-index="-1"/> */}
+
+                <div className="container_projects">
+
+                    <div className="project_store">
+                        <span><h4>Vanilla Javascript Store</h4></span>
+                        <div className="card_project">
+                           <div>.</div>
+                        </div>
+                    </div>
+                
+                    <div className="project_store">
+                        <span><h4>AMAZON Clone React</h4></span>
+                        <div className="card_project">
+                           <img src={AmazonClone} width="50%"/>
+                           <img src={AmazonClone2} width="60%"/>
+                        </div>
+                        <div className="project_link"><a href="https://survival-store-2021.netlify.app/"><i class="far fa-arrow-alt-circle-up"></i>   Go to project</a></div>
+                    </div>
+                </div>
             </div>
         </div>
     )
