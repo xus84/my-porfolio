@@ -5,6 +5,8 @@ import './Projects.css'
 import Ecommerce from './images/3d-online-shopping.jpg'
 import AmazonClone from './images/amazon_react_store.png'
 import AmazonClone2 from './images/product1_amazon_react.png'
+import JavascriptStore from './images/js-store1.png'
+import JavascriptStore2 from './images/js-store2.png'
 
 export default function Projects() {
     return (
@@ -29,15 +31,19 @@ export default function Projects() {
                     <div className="project_store">
                         <span><h4>Vanilla Javascript Store</h4></span>
                         <div className="card_project">
-                           <div>.</div>
+                           <div>
+                           <img src={JavascriptStore} width="90%"/>
+                           <img src={JavascriptStore2} width="95%"/>
+                           </div>
                         </div>
+                        <div className="project_link"><a href="https://javascript-store.netlify.app/"><i class="far fa-arrow-alt-circle-up"></i>   Go to project</a></div>
                     </div>
                 
                     <div className="project_store">
                         <span><h4>AMAZON Clone React</h4></span>
                         <div className="card_project">
-                           <img src={AmazonClone} width="50%"/>
-                           <img src={AmazonClone2} width="60%"/>
+                           <img src={AmazonClone} width="90%"/>
+                           <img src={AmazonClone2} width="90%"/>
                         </div>
                         <div className="project_link"><a href="https://survival-store-2021.netlify.app/"><i class="far fa-arrow-alt-circle-up"></i>   Go to project</a></div>
                     </div>
